@@ -4,7 +4,8 @@
     margin: 0%; 
 }
 
-body {
+body,
+footer {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 ul {
@@ -126,6 +127,7 @@ a:hover {
      padding-bottom: 100px;
      flex-direction: column;
     background-color: #e5e7eb;
+    height: auto;
  }
 
  .body-quote .text {
@@ -148,7 +150,43 @@ a:hover {
     border-radius: 10px;
  }
 
- 
+.body-action {
+    display: flex;
+    color: white;
+    justify-content: space-between;
+    flex-direction: column;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 50px;
+    padding-right: 50px;
+    background-color: #3882d6;
+    border-radius: 8px;
+    margin: 80px;
+}
+.body-action .title {
+    display: flex;
+    text-align: left;
+
+}
+.body-action button {
+    background: #3882d6;
+    border-radius: 5px;
+    color: white;
+    border: 1px solid white;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    height: auto;
+    width: 65px;
+    margin-top: 5px;
+}
+
+.body-action-body {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+
 #button {
     background: #3882d6;
     border-radius: 5px;
@@ -159,4 +197,21 @@ a:hover {
     height: auto;
     width: 65px;
     margin-top: 5px;
+}
+
+.footer-container {
+    display: flex;
+    flex-direction: column;
+    background-color: #1f2937;
+    align-content: space-between;
+    color: white;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.copyright {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 5px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
 }
