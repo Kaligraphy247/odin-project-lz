@@ -1,30 +1,49 @@
 <!DOCTYPE html>
 <html>
     <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>PPPPPPOdin Project</title>
         <link rel="stylesheet" href="styles/style.css">
     </head>
 
     <!--Body begins here-->
-    <header class="header">
-        <div>
-            <div id="header-logo">
-                <h5>Header logo</h2></div>
-            header link 1
-            header link 2
-            header link 3
+    <header class="header-container">
+        <div class="navbar">
+            <div class="logo">
+                <h4>Header Logo</h4>
+            </div>
+            
+            <nav class="nav-links">
+                <ul>
+                    <li><a>Header Link one</a></li>
+                    <li><a>Header Link two</a></li>
+                    <li><a>Header Link three</a></li>
+                </ul>
+            </nav>
         </div>
-        <div>
-            <h1>This Website is awesome</h1>
-            <p>
-                This website has some subtext that goes here
-                under the main title. It's a smaller font and 
-                the color is lower contrast.
-            <p>
-            <button id="button">Sign up</button>
-            where the image placeholder goes
+
+        <div class="main-header-container">
+            <div class="main-header-text">
+                <h1>
+                    This website is awesome
+                </h1>
+                <p>
+                    This website has some subtext that goes here
+                    under the main title. It's a smaller font and 
+                    the color is lower contrast.
+                </p>
+                <button id="button"><a href="#">Sign up</a></button>
+            </div>
+            <div>
+                <img src="img/header-image.jpg" id="header-image">
+            </div>
+            
         </div>
+
     </header>
+
     <body>
         <h2>Some random information</h2>
         image & subtext
@@ -40,14 +59,14 @@
         <strong> - James the Elder</strong>
         <div>call to action! it's time!
         Sign up now for our product by clicking that button right there!
-        <button id="button">Sign up</button>
+        <button id="button"><a>Sign up</a></button>
         </div>
         
     </body>
 
     <!--Footer begins here-->
-    <footer>
+    <footer class="footer">
         Copyright &copy; My Version of the Odin Project
-        <p>Pretty Cool right?</p>
+        <p>Pretty cool right?</p>
     </footer>
 </html>
