@@ -87,9 +87,11 @@ a:hover {
     height: auto;
     width: 350px;  
     padding: 10px;
+    margin-left: 20px;
     border-radius: 10px;
  }
 
+ 
 #button {
     background: #3882d6;
     border-radius: 5px;
